@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    margin-top: 60px;
+    background-color: #FFD700;
+    text-align: center;
+
+}
+
+h1 {
+    color: #000000;
+    font-family: "Bangers", system-ui;
+}
+
+span {
+    color: #FF1493;
+}
+
+p, button {
+    font-family: "Fredoka", sans-serif;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+#mood-btn-one {
+    background-color: #2bd02b;
+}
+
+#mood-btn-two {
+    background-color: #FF6347;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.message-common {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 32px;
+    width: 200px;
+    height: 30px;
+    background-color: #FF1493;
+    padding: 4px 8px;
+    font-size: 16px;
+
+}
+
+#message-one {
+    margin-right: 10px;
+    
+    
+}
+
+#message-two {
+    margin-left: 10px;
+}
